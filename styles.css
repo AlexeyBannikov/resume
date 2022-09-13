@@ -1,0 +1,156 @@
+* {
+	padding: 0;
+	margin: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-family: 'Nunito', Roboto, system-ui, Tahoma, sans-serif;
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #222222;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 15px;
+	box-shadow: inset 0 0 10px 10px #c1c1c1;
+	border: solid 2px transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	border: solid 1px transparent;
+}
+
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	color: #fff;
+	background-color: #222222;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+span {
+	display: flex;
+	letter-spacing: 5px;
+	padding-bottom: 7px;
+	text-transform: uppercase;
+}
+
+li {
+	list-style-type: none;
+	padding: 5px 0px;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: #141414;
+	padding: 20px 40px;
+}
+
+/* HEADER */
+.header img {
+	width: 200px;
+	height: 250px;
+	border-radius: 15px;
+	margin-right: 220px;
+}
+
+/* PERSONAL INFO */
+.personal-info {
+	display: flex;
+	align-items: center;
+}
+.personal-info h1 {
+	font-size: 48px;
+	letter-spacing: 5px;
+}
+.last-name {
+	font-size: 60px;
+}
+.personal-info span {
+	font-size: 16px;
+}
+
+/* ABOUT */
+.about {
+	display: flex;
+	padding: 20px 0px;
+	border-bottom: 1px solid #fff;
+}
+.contacts {
+	margin-right: 250px;
+}
+/* .about-me {
+} */
+
+/* EDUCATION */
+.education {
+	padding: 20px 0px;
+}
+/* WORK */
+.work {
+	padding: 20px 0px;
+}
+
+/* LANGUAGE */
+.language {
+	padding: 20px 0px;
+}
+
+/* SKILLS */
+.skills {
+	padding: 20px 0px;
+	display: inline-block;
+}
+.skills ul {
+	padding-bottom: 5px;
+}
+.skills li {
+	border-bottom: 1px solid #fff;
+}
+
+/* ADDITIONAL */
+.additional {
+	padding: 20px 0px;
+}
+
+@media screen and (max-width: 825px) {
+	.last-name {
+		font-size: 48px;
+	}
+	.personal-info {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.personal-info h1 {
+		font-size: 36px;
+		letter-spacing: 5px;
+	}
+	.personal-info span {
+		display: inline-block;
+	}
+	.personal-info img {
+		margin: 0;
+	}
+
+	.about {
+		display: flex;
+		flex-direction: column;
+	}
+	.about-me {
+		margin-top: 10px;
+	}
+}
+
+
