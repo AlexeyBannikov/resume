@@ -106,6 +106,15 @@ li {
 	padding: 20px 0px;
 }
 
+/* PROJECTS */
+.projects {
+	padding: 20px 0px;
+}
+.stack li{
+	list-style-type: disc;
+	margin-left: 30px;
+}
+
 /* SKILLS */
 .skills {
 	padding: 20px 0px;
